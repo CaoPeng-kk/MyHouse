@@ -11,7 +11,7 @@
 <div class="wrapper">
 
 	<div class="container">
-		<h1>房屋租赁网站</h1>
+		<h1>便捷租房网站</h1>
 		<form class="form" id="loginform" action="logincheck" method="post">
 			<div><input type="text" name="username" placeholder="用户名" ></div>
 			<div><input type="password" id="password" name="password" placeholder="密码" ></div>

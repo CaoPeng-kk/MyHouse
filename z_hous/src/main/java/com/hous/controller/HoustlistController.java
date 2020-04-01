@@ -102,7 +102,8 @@ public class HoustlistController {
 			//保存数据库的路径
 			String sqlPath = null;
 			//定义文件保存的本地路径
-			String localPath="E:\\SpringBoot\\z_hous\\src\\main\\webapp\\imgs\\";
+			String localPath="D:\\SpringBoot\\z_hous\\src\\main\\webapp\\imgs\\";
+//			String localPath="D:\\Pic";
 			// 定义 文件名
 			System.out.println(localPath);
 			String filename=null;

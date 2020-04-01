@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,13 +21,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.hous.pojo.User;
 import com.hous.service.user.LoginService;
 import com.hous.util.RandomValidateCodeUtil;
+import org.w3c.dom.ls.LSOutput;
 
 @Controller
 public class LoginController {
 	
 	@Autowired
 	private LoginService loginService;
-	
+
 	@RequestMapping("/login")
 	public String login() {
 		return "login";
